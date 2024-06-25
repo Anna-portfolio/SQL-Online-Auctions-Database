@@ -13,7 +13,6 @@ The following database is designed for collecting and processing information for
 Additional description of the tables can be found in the SQL comments. 
 <BR><br>
 CONTENT OVERVIEW
-- creating dataset, 
 - creating tables and inserting values into them,
 - constraints,
 - foreign keys,
