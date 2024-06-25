@@ -1,5 +1,5 @@
 # SQL-Online-Auctions-Database
-Full project in T-SQL of online auctions database, including: creating tables, constraints, foreign keys, views, functions, procedures, and triggers
+Full project in T-SQL of online auctions database, including: creating tables, adding constraints, foreign keys, views, functions, procedures, and triggers
 
 DESCRIPTION <br>
 The following database is designed for collecting and processing information for online auctions. The database is called “Auctions” and consists of the following tables: 
