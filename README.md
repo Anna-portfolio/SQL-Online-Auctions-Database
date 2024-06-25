@@ -1,5 +1,5 @@
 # SQL-Online-Auctions-Dataset
-Full project in T-SQL of online auctions database, including: creating dataset, constraints, foreign keys, views, functions, procedures, triggers, and a diagram (T-SQL)
+Full project in T-SQL of online auctions database, including: creating dataset, tables, constraints, foreign keys, views, functions, procedures, triggers, and a diagram (T-SQL)
 
 Description 
 The following database is designed for collection and processing information for online auctions. The database is called “Auctions” and consists of the following tables: 
@@ -13,7 +13,8 @@ The following database is designed for collection and processing information for
 Additional description of the tables can be found in the SQL comments. 
 
 The project includes: 
-- creating dataset (creating tables, inserting values into the tables),
+- creating dataset, 
+- creating tables and inserting values into them,
 - constraints,
 - foreign keys,
 - views,
