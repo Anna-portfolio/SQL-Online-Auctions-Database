@@ -3,11 +3,11 @@
 --Full project in T-SQL of online auctions database, including: creating dataset, tables, constraints, foreign keys, views, functions, procedures, and triggers
 
 --DESCRIPTION
---The following database is designed for collecting and processing information for online auctions. The database is called ìAuctionsî and consists of the following tables: 
---Users ñ users of the online actions 
---ContactDetails ñ data of users of the online actions 
+--The following database is designed for collecting and processing information for online auctions. The database is called ‚ÄúAuctions‚Äù and consists of the following tables: 
+--Users ‚Äì users of the online actions 
+--ContactDetails ‚Äì data of users of the online actions 
 --Orders - details of the orders placed by the users
---Products ñ details of products available in the online actions  
+--Products ‚Äì details of products available in the online actions  
 --Suppliers - details of suppliers supplying the products available in the online actions  
 
 --Additional description of the tables can be found in the SQL comments. 
@@ -205,13 +205,13 @@ INSERT INTO ContactDetails VALUES
 
 (1003, 452, 'Apt. 337 Am Frankenberg 13b, Jamalheim, BB 61162', 'Germany'), 
 
-(1004, 795, 'ul. Sieradzka 532, LwÛwek, PK 40-733', 'Poland'), 
+(1004, 795, 'ul. Sieradzka 532, Lw√≥wek, PK 40-733', 'Poland'), 
 
 (1005, 465, '38761 Brock Stream, Port Vertieville, WY 84100-8795', 'Canada'), 
 
-(1006, 345, '336 CÙte Genouville, 10803 Avignon', 'France'), 
+(1006, 345, '336 C√¥te Genouville, 10803 Avignon', 'France'), 
 
-(1007, 435, 'Apt. 848 Quarzstr. 1, Schˆn Wibke, SN 39347', 'Germany'), 
+(1007, 435, 'Apt. 848 Quarzstr. 1, Sch√∂n Wibke, SN 39347', 'Germany'), 
 
 (1008, 566, '22528 Edelmira Groves, Thompsonmouth, DE 24118', 'USA'), 
 
@@ -459,7 +459,7 @@ SELECT * FROM ProductNameRange ('p%')
 
 
 -- STORED PROCEDURE AddUserRecord
--- Procedure which adds a record into the Users table (UserID, FirstName, LastName, BirthDate). The procedurÍ also checks if the user with the same ID number does not already exist in the table (by using the parameter of @vUserID). 
+-- Procedure which adds a record into the Users table (UserID, FirstName, LastName, BirthDate). The procedur√™ also checks if the user with the same ID number does not already exist in the table (by using the parameter of @vUserID). 
 
 CREATE PROCEDURE AddUserRecord (  
 
@@ -511,7 +511,7 @@ EXECUTE AddUserRecord '1010', 'Michael', 'Smith', '1970-01-01'
  
 
 -- STORED PROCEDURE PriceChange 
--- Procedure which changes the product's unit price under specified ID (@vProductID) by the value provided as the parameter (@vUnitPriceChange). The procedurÍ also checks if the product with the same ID number does not already exist in the table (by using the parameter of @vProductID).  
+-- Procedure which changes the product's unit price under specified ID (@vProductID) by the value provided as the parameter (@vUnitPriceChange). The procedur√™ also checks if the product with the same ID number does not already exist in the table (by using the parameter of @vProductID).  
 
 
 CREATE PROCEDURE PriceChange @vProductID INT, @ vUnitPriceChange INT  
