@@ -4,7 +4,7 @@ Full project in T-SQL of online auctions database, including: creating tables, a
 DESCRIPTION <br>
 The following database is designed for collecting and processing information for online auctions. The database is called “Auctions” and consists of the following tables: 
 
-- Users – users of the online actions 
+- Users – users of the online actions
 - ContactDetails – data of the users of the online actions 
 - Orders - details of the orders placed by the users
 - Products – details of products available in the online actions  
